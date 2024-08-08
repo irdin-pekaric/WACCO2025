@@ -16,3 +16,6 @@ We excluded websites from the Darknet Monitor with the following tags:
 15    Violent Crime
 16    Explosives
 17    Cocaine
+
+
+We additionally removed data items containing the following words: 'porn', 'child', 'drugs', 'sex', 'lolita'. This is (i) due to the fact that these data items are unrelated to CTI and (ii) may contain unappealing content. 
