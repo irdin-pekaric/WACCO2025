@@ -1,0 +1,18 @@
+We excluded websites from the Darknet Monitor with the following tags:
+1     Drugs / Narcotics
+2     Counterfeit
+3     Bullying
+4     Electronics
+5     Porn
+6     Pharma
+7     Weapons
+8     Weed
+9     Anarchism
+10    Freedom of Speech
+11    Gambling
+12    Under Construction
+13    Status Information
+14    Hitman
+15    Violent Crime
+16    Explosives
+17    Cocaine
