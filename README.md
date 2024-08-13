@@ -8,4 +8,4 @@ The repository includes the following items:
 - The word clouds and the respective topic labels that we manually reviewed based on the suggestion of LLAMA-2 (to be added).
 - The code for data preprocessing, the keyword dictionary, and the code for the topic model(to be added).
 - The detailed classified related work list (to be added).
-- The search query of the literature review (literature-review-search-query.rtf).
+- - The search query from the literature review (literature-review-search-query.txt).
