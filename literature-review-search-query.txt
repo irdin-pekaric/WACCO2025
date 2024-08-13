@@ -1,0 +1,3 @@
+Search Query: ("threat intelligence" OR "cyber threat intelligence") AND ("underground forums" OR "darknet" OR "Twitter" OR "Telegram" OR "Discord" OR "OSINT" OR "Open source intelligence" OR "social media" OR "security reports")\
+
+The search query was entered on Google Scholar in March 2024, considering papers published after 2017.
