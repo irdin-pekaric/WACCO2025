@@ -59,11 +59,11 @@ def main(input_path, output_path):
     tqdm.pandas(desc="Processing HTML Code")
 
     # Apply the paragraph extraction function with progress bar
-    df['paragraph_text_capture'] = df['html_code'].progress_apply(extract_valid_paragraphs)
+    df['raw_content'] = df['html_code'].progress_apply(extract_valid_paragraphs)
 
     # Remove duplicates in the new column
-    df = df.drop_duplicates(subset='paragraph_text_capture')
-    df = df.dropna(subset='paragraph_text_capture')
+    df = df.drop_duplicates(subset='raw_content')
+    df = df.dropna(subset='raw_content')
 
     # Save the new DataFrame to a CSV file
     df.to_csv(output_path, index=False)
