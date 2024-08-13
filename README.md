@@ -14,6 +14,7 @@ The repository includes the following items:
     - english_detection.py: This code detects text that is not in English and drops it.
     dictionary_matching.py: This code applies dictionary matching to the raw (unprocessed) data. We applied it to the raw content because, in the preprocessing step, we remove numbers,     etc., which would the technical dictionary not allow to match, for instance, hashes. However, we need the preprocessed text to feed it into the topic model.
     - comp_words_relevant_vs_not.ipynb: The code of the analysis from the most frequent words. The code identifies the most frequent words among the data items (from the ''train             dataset'') that are matched vs. not matched by our CTI dictionary. We report these for transparency, i.e. showcasing that we have objectively fine-tuned our dictionary.
+    - topic_model_code.py (to be added)
 
 Experiments/Results:
 - The topic model parameters from our experiments (topic-model-parameter-experiments.xlsx).
