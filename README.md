@@ -3,7 +3,7 @@ This is a repository with supporting materials and code for our paper at WSDM202
 
 The repository includes the following items:
 - Literature Review:
-    - The detailed classified related work list (to be added).
+    - The detailed classified related work list (see folder literature review).
     - The search query from the literature review (literature-review-search-query.txt).
       
 - The tags of the darknet websites we excluded when constructing the darknet websites dataset (darknet-websites-excluded-tags.txt).
