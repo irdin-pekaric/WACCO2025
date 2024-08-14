@@ -18,6 +18,9 @@ The repository includes the following items:
     - modify_model.py: This code is a template in order to modify a topic model previously trained.
     - functions.py: This code contains multiple functions used in topic_modeling.py and modify_model.py
     - prompts.py: This code only contains prompts used for the LLAMA-2 labeling of the topics
+    - pip_requirements_for_wsdm.txt: This is not code but it contains the pip requirements used for the topic modeling. In the code we used GPU acceleration with cuml, which might need to be downloaded separately, for more informations see: https://maartengr.github.io/BERTopic/getting_started/tips_and_tricks/tips_and_tricks.html#speed-up-umap
+
+
 
 Experiments/Results:
 - The topic model parameters from our experiments (topic-model-parameter-experiments.xlsx).
