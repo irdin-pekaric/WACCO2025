@@ -21,4 +21,4 @@ The repository includes the following items:
 
 Experiments/Results:
 - The topic model parameters from our experiments (topic-model-parameter-experiments.xlsx).
-- The word clouds and the respective topic labels that we manually reviewed based on the suggestion of LLAMA-2.
+- The word clouds and the respective topic labels that we manually reviewed based on the suggestion of LLAMA-2 (in the folder topic_model_experiments).
