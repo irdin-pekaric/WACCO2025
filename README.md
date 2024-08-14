@@ -17,7 +17,7 @@ The repository includes the following items:
     - topic_modeling.py: This code executes the topic modeling. It takes the 'preprocessed_content' from a sample and creates different visualizations and the trained topic model is saved
     - modify_model.py: This code is a template in order to modify a topic model previously trained.
     - functions.py: This code contains multiple functions used in topic_modeling.py and modify_model.py
-    - prompts.py: This code only contains prompts used for the llm labeling of the topics
+    - prompts.py: This code only contains prompts used for the LLAMA-2 labeling of the topics
 
 Experiments/Results:
 - The topic model parameters from our experiments (topic-model-parameter-experiments.xlsx).
