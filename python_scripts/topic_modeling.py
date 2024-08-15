@@ -88,19 +88,19 @@ umap_n_components=5 # dflt 5
 umap_min_dist=0.0 # dflt 0.0
 umap_metric='cosine' # dflt 'cosine'
 
-hdbscan_min_cluster_size=hdbscan_min_cluster_size_args # dflt 15 40 60
+hdbscan_min_cluster_size=hdbscan_min_cluster_size_args # dflt 15
 hdbscan_metric='euclidean' # dflt 'eucledian'
 hdbscan_cluster_selection_method='eom' # dflt 'eom'
 hdbscan_prediction_data=True # dflt True
-hdbscan_min_samples=hdbscan_min_sample_size_args
+hdbscan_min_samples=hdbscan_min_sample_size_args # dflt is the same number as the hdbscan min cluster size
 
 vectorizer_stop_words="english" # dflt "english"
 
-# can be 'auto' or a number which will be later on used to enforce the number
+# can be 'auto' or a number which will be later on used to enforce the number of topics
 bool_enforcenrtopics = True
 nr_topics_to_be_enforced = 'auto'
 
-# Default is 10 it is the number of words per topic to be extracted
+# Default is 10, it is the number of words per topic to be extracted
 # The documentation says that usually more than 10 words give unneccessary noisy words
 top_n_words = 15
 
@@ -240,7 +240,7 @@ if bool_enforcenrtopics:
 if llama_labeling:
     llama2_labels_raw = [label[0][0].split("\n")[0] for label in topic_model.get_topics(full=True)["Llama2"].values()]
 
-    # Sanitizing labels to contain at most 15 words
+    # Sanitizing labels to contain at most 20 words
     llama2_labels_sanitized = []
     for label in topic_model.get_topics(full=True)["Llama2"].values():
         # Extracting the raw label
