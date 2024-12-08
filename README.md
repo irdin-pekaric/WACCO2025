@@ -1,5 +1,5 @@
-# WSDM2025
-This is a repository with supporting materials and code for our paper at WSDM2025.
+# CODASPY2025
+This is a repository with supporting materials and code for our paper at CODASPY2025.
 
 The repository includes the following items:
 - Literature Review:
