@@ -17,7 +17,7 @@ If you use any of our resources, you are kindly invited to cite our paper:
 This is an official repository for the supplementary materials for the paper "The Dark Side of the Web: Towards Understanding Various Data Sources in Cyber Threat Intelligence". It contains the following files:
 
 (1) Literature Review ("ios.ipynb" and "ps.ipynb"):
-    - The detailed classified related work list (see folder literature review).
+  (1) The detailed classified related work list (see folder literature review).
     - The search query from the literature review (literature-review-search-query.txt)
 
 (2) The tags of the darknet websites we excluded when constructing the darknet websites dataset (darknet-websites-excluded-tags.txt)
