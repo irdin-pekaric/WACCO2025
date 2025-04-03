@@ -23,8 +23,8 @@ This is an official repository for the supplementary materials for the paper "Th
 (2) The tags of the darknet websites we excluded when constructing the darknet websites dataset (darknet-websites-excluded-tags.txt)
     
 (3) The following code:
-    - expand_different_capture_method.py: This code takes the HTML files from the darknet websites, extracts the text, and stores it in a CSV.
-    - preprocessing_script.py: This code contains the preprocessing steps.
+    a) expand_different_capture_method.py: This code takes the HTML files from the darknet websites, extracts the text, and stores it in a CSV.
+    b) preprocessing_script.py: This code contains the preprocessing steps.
     - english_detection.py: This code detects text that is not in English and drops it.
     - dictionary_matching.py: This code applies dictionary matching to the raw (unprocessed) data. We use the raw content because the preprocessing step removes elements like numbers, which would otherwise prevent the technical dictionary from matching on hashes. However, the preprocessed text is still needed for input into the topic model.
     - comp_words_relevant_vs_not.ipynb: The code of the analysis from the most frequent words. The code identifies the most frequent words among the data items that are matched vs. not matched by our CTI dictionary. We report these for transparency, i.e. showcasing that we have objectively fine-tuned our dictionary.
