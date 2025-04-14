@@ -40,7 +40,7 @@ This is an official repository for the supplementary materials for the paper "Th
     
 ### Contact
 
-If you have any inquiry about our research (e.g., about the literature review, data sources, source code or experiments) feel free to contact the first author, [Saskia Laura Schröer] (saskia.schroeer@uni.li)
+If you have any inquiry about our research (e.g., about the literature review, data sources, source code or experiments) feel free to contact the [Saskia Laura Schröer] (saskia.schroeer@uni.li), [Irdin Pekaric] (irdin.pekaric@uni.li) or [Philine Widmer] (philine.widmer@psemail.eu).
 
 
 
