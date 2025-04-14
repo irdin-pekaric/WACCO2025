@@ -18,9 +18,9 @@ This is an official repository for the supplementary materials for the paper "Th
 
 (1) Literature Review:
   - The detailed classified related work list (see folder literature review).
-  - The search query from the literature review (literature-review-search-query.txt)
+  - The search query from the literature review (literature-review-search-query.txt).
 
-(2) The tags of the darknet websites we excluded when constructing the darknet websites dataset (darknet-websites-excluded-tags.txt)
+(2) The tags of the darknet websites we excluded when constructing the darknet websites dataset (darknet-websites-excluded-tags.txt).
     
 (3) The following code:
   - Expand_different_capture_method.py: This code takes the HTML files from the darknet websites, extracts the text, and stores it in a CSV.
